@@ -38,7 +38,8 @@ urlpatterns = [
             'next_page': '/',
         },
         name='logout'),
-    url(r'^hello$', HelloDjangoApp.views.index, name='hellos'),
+    url(r'^hello$', HelloDjangoApp.views.index, name='hello'),
+    url(r'^stocks$', HelloDjangoApp.views.stocks, name='stocks'),
 
     # Uncomment the admin/doc line below to enable admin documentation:
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),

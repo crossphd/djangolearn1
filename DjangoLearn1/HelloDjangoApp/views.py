@@ -14,3 +14,14 @@ def index(request):
             'content' : " on " + now.strftime("%A, %d %B, %Y at %X")
         }
     )
+
+def stocks(request):
+
+    return render(
+        request,
+        "HelloDjangoApp/stocks.html",
+        {
+            'title' : "Stocks",
+            'message' : "Stocks"
+        }
+    )

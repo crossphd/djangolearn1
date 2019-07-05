@@ -80,6 +80,7 @@
   <ItemGroup>
     <Content Include="app2\templates\app2\index.html" />
     <Content Include="HelloDjangoApp\templates\HelloDjangoApp\index.html" />
+    <Content Include="HelloDjangoApp\templates\HelloDjangoApp\Stocks.html" />
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />
     <Content Include="app\static\app\content\bootstrap.css" />
