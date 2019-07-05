@@ -260,3 +260,4 @@ paket-files/
 __pycache__/
 *.pyc
 /DjangoLearn1/env1
+/DjangoLearn1/env
