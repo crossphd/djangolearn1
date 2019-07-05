@@ -31,12 +31,26 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="app2\admin.py" />
+    <Compile Include="app2\apps.py" />
+    <Compile Include="app2\migrations\__init__.py" />
+    <Compile Include="app2\models.py" />
+    <Compile Include="app2\tests.py" />
+    <Compile Include="app2\views.py" />
+    <Compile Include="app2\__init__.py" />
     <Compile Include="app\forms.py" />
     <Compile Include="app\models.py" />
     <Compile Include="app\tests.py" />
     <Compile Include="app\views.py" />
     <Compile Include="app\__init__.py" />
     <Compile Include="app\migrations\__init__.py" />
+    <Compile Include="HelloDjangoApp\admin.py" />
+    <Compile Include="HelloDjangoApp\apps.py" />
+    <Compile Include="HelloDjangoApp\migrations\__init__.py" />
+    <Compile Include="HelloDjangoApp\models.py" />
+    <Compile Include="HelloDjangoApp\tests.py" />
+    <Compile Include="HelloDjangoApp\views.py" />
+    <Compile Include="HelloDjangoApp\__init__.py" />
     <Compile Include="manage.py" />
     <Compile Include="DjangoLearn1\__init__.py" />
     <Compile Include="DjangoLearn1\settings.py" />
@@ -44,6 +58,10 @@
     <Compile Include="DjangoLearn1\wsgi.py" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="app2\" />
+    <Folder Include="app2\migrations\" />
+    <Folder Include="app2\templates\" />
+    <Folder Include="app2\templates\app2\" />
     <Folder Include="app\" />
     <Folder Include="app\migrations\" />
     <Folder Include="app\static\" />
@@ -54,8 +72,14 @@
     <Folder Include="app\templates\" />
     <Folder Include="app\templates\app\" />
     <Folder Include="DjangoLearn1\" />
+    <Folder Include="HelloDjangoApp\" />
+    <Folder Include="HelloDjangoApp\migrations\" />
+    <Folder Include="HelloDjangoApp\templates\" />
+    <Folder Include="HelloDjangoApp\templates\HelloDjangoApp\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app2\templates\app2\index.html" />
+    <Content Include="HelloDjangoApp\templates\HelloDjangoApp\index.html" />
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />
     <Content Include="app\static\app\content\bootstrap.css" />

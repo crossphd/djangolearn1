@@ -5,6 +5,7 @@ Definition of urls for DjangoLearn1.
 from datetime import datetime
 from django.conf.urls import url
 import django.contrib.auth.views
+import HelloDjangoApp.views
 
 import app.forms
 import app.views
@@ -37,6 +38,7 @@ urlpatterns = [
             'next_page': '/',
         },
         name='logout'),
+    url(r'^hello$', HelloDjangoApp.views.index, name='hellos'),
 
     # Uncomment the admin/doc line below to enable admin documentation:
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
