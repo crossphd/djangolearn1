@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.705
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "DjangoLearn1", "DjangoLearn1\DjangoLearn1.pyproj", "{939DAB34-9D27-4074-9C96-5A492943600A}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "DjangoPolls", "DjangoPolls\DjangoPolls.pyproj", "{D9D68A6D-F168-4C0C-8593-CFD1035D0E33}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{939DAB34-9D27-4074-9C96-5A492943600A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{939DAB34-9D27-4074-9C96-5A492943600A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{939DAB34-9D27-4074-9C96-5A492943600A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9D68A6D-F168-4C0C-8593-CFD1035D0E33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9D68A6D-F168-4C0C-8593-CFD1035D0E33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9D68A6D-F168-4C0C-8593-CFD1035D0E33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9D68A6D-F168-4C0C-8593-CFD1035D0E33}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

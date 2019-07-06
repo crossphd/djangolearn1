@@ -261,3 +261,4 @@ __pycache__/
 *.pyc
 /DjangoLearn1/env1
 /DjangoLearn1/env
+/DjangoPolls/env
